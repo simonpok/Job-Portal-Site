@@ -90,3 +90,60 @@ h2::before {
   max-width: 100px;
   margin: 65px 70px;
 }
+
+/* Recent Jobs */
+#jobs {
+  background: #f8f8fa;
+  padding: 50px 0;
+}
+
+.company-info {
+  box-shadow: 0 2px 70px 0 rgba(110, 130, 208, 0.18);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.job-update {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.job-update .fa {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: greenyellow;
+}
+
+.job-update small {
+  background: #efefef;
+  padding: 1px 5px;
+  margin: 0 5px;
+}
+
+.job-update p {
+  margin-bottom: 0 !important;
+}
+
+.job-update a {
+  text-decoration: none !important;
+  color: #b6bed2;
+  float: right;
+}
+
+.apply-button {
+  height: 40px;
+  background-image: linear-gradient(to left, #098eee, rgb(227, 60, 9));
+  padding: 7px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.apply-button .btn-primary {
+  padding: 0 30px;
+  float: right;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none !important;
+  border: 1px solid #fff;
+}
